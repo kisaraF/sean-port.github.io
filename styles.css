@@ -72,6 +72,12 @@ a:hover{
 	display: block;
 }
 
+#img:hover{
+	transform: scale(1.1);
+	box-shadow: 10px 05px 10px #c4c4c4;
+	transition: ease-in 0.2s;
+}
+
 @media (max-width: 500px){
 	.pics{
 		display: block;
